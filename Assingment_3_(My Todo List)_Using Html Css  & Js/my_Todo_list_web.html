@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My todo List</title>
+    <link rel="stylesheet" href="my_Todo_list_web.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Todo List</h1>
+        <p>Click on a task to complete . Double click to edit.</p>
+
+        <div class="input-section">
+            <input type="text" placeholder="What you need to do?" id="input">
+            <button class="add-btn" id="addBtn">Add</button>
+        </div>
+
+        <div class="button">
+            <button class="filter-btn" id="allBtn" data-filter="all">All</button>
+            <button class="filter-btn" id="activeBtn" data-filter="active">Active</button>
+            <button class="filter-btn" id="completedBtn" data-filter="completed">Completed</button>
+        </div>
+
+        <div class="counter"> 
+            <div>Total:<span id="total">0</span></div>
+            <div>Completed:<span id="completed">0</span></div>
+            <div>Remaining:<span id="remainCount">0</span></div>
+        </div>
+
+        <ul id="todoList">
+            <li class="empty_message" id="emptyMsg">No tasks yet. Add one above!</li>
+        </ul>
+
+        <div class="bottom-btns">
+            <button class="clear-done-btn" id="clearDoneBtn">Clear Completed</button>
+            <button class="clear-btn" id="clearBtn">Clear All</button>
+        </div>
+    </div>
+    <script src="my_Todo_list_web.js"></script>
+</body>
+</html>

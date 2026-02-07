@@ -1,0 +1,181 @@
+body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background: linear-gradient(135deg, #90f3da, #b38fec);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            width: 400px;
+            height: 600px;
+        }
+        h1 { 
+            margin: 0 0 5px 0; 
+            color: #333;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        /* Input Area */
+        .input-section {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        input[type="text"]:focus { 
+            outline: none; 
+            border-color: #667eea; 
+        }
+        .add-btn {
+            padding: 12px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .add-btn:hover { background: #5a6fd6; }
+
+        /* Filter Buttons */
+        .button {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .filter-btn {
+            flex: 1;
+            padding: 8px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .filter-btn:hover { background: #6aade4; }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        /* Task Counter */
+        .counter {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .counter span { font-weight: bold; color: #667eea; }
+
+        /* Task List */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        li {
+            padding: 15px;
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-left: 4px solid #667eea;
+        }
+        li.done {
+            border-left-color: #27ae60;
+            background: #e8f8ef;
+        }
+        li.done .task-text {
+            text-decoration: line-through;
+            color: #888;
+        }
+        li.hidden { display: none; }
+
+        .task-info {
+            flex: 1;
+            cursor: pointer;
+        }
+        .task-text { 
+            display: block;
+        }
+        .task-info:hover .task-text { color: #667eea; }
+
+
+        .edit-input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #667eea;
+            border-radius: 3px;
+            font-size: 1rem;
+        }
+
+        .delete-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+        .delete-btn:hover { background: #c0392b; }
+
+        /* Bottom Buttons */
+        .bottom-btns {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .clear-btn, .clear-done-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .clear-done-btn {
+            background: #12b3f3;
+            color: white;
+        }
+        .clear-done-btn:hover { background: #109ed6; }
+        .clear-btn {
+            background: #e74c3c;
+            color: white;
+        }
+        .clear-btn:hover { background: #c0392b; }
+
+        /* Empty State */
+        .empty_message {
+            text-align: center;
+            color: #aaa;
+            padding: 30px;
+            font-style: italic;
+        }
