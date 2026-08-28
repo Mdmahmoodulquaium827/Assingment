@@ -1,0 +1,81 @@
+product_id,category,brand_type,price,rating,reviews,stock,discount_percent,delivery_days,payment_method,returned,sales_value
+5001,Beauty,International,7065.3,2.9,302.0,148.0,11.2,8.0,Card,No,36212.35
+5002,Sports,Local,38527.38,3.1,291.0,176.0,8.4,6.0,Mobile Banking,No,32443.59
+5003,Electronics,Local,23886.84,4.5,684.0,127.0,23.3,1.0,Mobile Banking,Yes,122362.02
+5004,Home,International,26099.92,4.7,309.0,117.0,37.5,3.0,Cash,No,148204.07
+5005,Home,Local,,4.8,18.0,17.0,23.0,9.0,Card,No,373327.53
+5006,Home,International,32283.21,2.7,17.0,7.0,26.0,9.0,Cash,No,249517.48
+5007,Books,Local,22081.04,2.4,245.0,160.0,30.4,5.0,Cash,No,102288.42
+5008,Sports,Local,23350.25,4.3,369.0,74.0,22.8,1.0,Card,No,66768.37
+5009,,Local,12666.92,3.0,716.0,162.0,40.7,9.0,Cash,No,22017.99
+5010,Sports,International,13060.94,4.8,247.0,83.0,15.3,8.0,Card,Yes,62733.81
+5011,Beauty,Local,1442.81,3.2,637.0,22.0,13.8,3.0,Cash,Yes,9636.11
+5012,Sports,Local,46640.53,2.5,245.0,34.0,18.1,3.0,Cash,Yes,43394.78
+5013,Sports,International,19795.27,,583.0,155.0,40.9,9.0,Card,No,81969.28
+5014,Sports,International,32519.88,2.4,362.0,68.0,46.5,5.0,Cash,No,130691.58
+5015,Sports,Local,18029.95,3.9,647.0,115.0,33.9,7.0,Mobile Banking,No,30555.16
+5016,Home,International,5788.89,3.4,842.0,116.0,46.6,1.0,,No,24602.16
+5017,Beauty,Local,22593.34,4.1,62.0,159.0,32.5,3.0,Cash,Yes,84104.93
+5018,Home,Local,23605.51,2.3,124.0,42.0,25.5,5.0,Card,No,79898.64
+5019,Sports,International,3189.85,2.3,258.0,189.0,22.0,9.0,Card,Yes,2585.52
+5020,Books,Local,40885.2,4.2,64.0,60.0,3.4,1.0,Card,Yes,108220.84
+5021,Electronics,International,14680.26,3.1,,162.0,39.9,3.0,Card,Yes,53227.46
+5022,Books,Local,32659.24,2.9,844.0,166.0,1.4,6.0,Card,Yes,186294.22
+5023,Home,International,7939.17,4.6,601.0,181.0,33.1,7.0,Card,No,36906.87
+5024,Home,Local,26555.07,2.1,1120.0,125.0,32.3,9.0,Card,Yes,54108.62
+5025,Books,International,34202.78,2.1,746.0,69.0,40.0,5.0,Card,Yes,258195.82
+5026,Home,Local,35676.44,3.0,499.0,140.0,11.3,5.0,Cash,Yes,194180.31
+5027,Home,Local,37208.05,3.1,599.0,147.0,7.6,7.0,Mobile Banking,No,68644.58
+5028,Home,Local,29063.1,5.0,305.0,28.0,28.5,7.0,Cash,No,207600.31
+5029,Home,International,19210.84,4.4,53.0,180.0,20.5,2.0,Cash,No,38542.49
+5030,Beauty,Local,38322.97,3.9,1101.0,,44.7,5.0,Card,Yes,34309.58
+5031,Sports,Local,2846.44,2.5,656.0,32.0,9.4,6.0,Mobile Banking,Yes,3591.68
+5032,Electronics,International,45643.11,4.2,188.0,85.0,6.6,9.0,Cash,Yes,258978.53
+5033,Beauty,Local,22021.04,2.9,154.0,196.0,16.1,5.0,Cash,No,80520.31
+5034,Sports,International,,3.1,167.0,197.0,28.5,1.0,Cash,No,66775.17
+5035,Home,Local,41124.61,2.1,1143.0,184.0,46.3,7.0,Card,Yes,68673.52
+5036,Home,International,9057.65,4.6,994.0,32.0,5.5,4.0,Cash,Yes,22400.61
+5037,Sports,Local,27724.04,2.9,871.0,13.0,3.6,5.0,Cash,Yes,242471.45
+5038,Books,International,27555.81,3.7,838.0,185.0,31.9,1.0,Card,No,43544.19
+5039,Home,Local,46040.31,2.3,323.0,72.0,19.4,4.0,Card,Yes,89593.46
+5040,Beauty,International,41714.36,4.4,1178.0,87.0,11.5,8.0,Cash,No,130793.03
+5041,Home,International,33102.95,2.1,981.0,112.0,21.4,7.0,Cash,No,103276.0
+5042,Electronics,International,34578.03,2.2,931.0,48.0,0.5,,Cash,No,33707.43
+5043,Books,Local,14526.41,4.2,921.0,180.0,28.0,7.0,Card,Yes,51365.78
+5044,Sports,International,45122.88,2.1,1043.0,157.0,6.8,1.0,Mobile Banking,Yes,44282.74
+5045,Beauty,International,3044.63,3.4,834.0,193.0,10.4,8.0,Cash,Yes,2172.44
+5046,Electronics,International,21228.48,4.1,1104.0,48.0,22.1,9.0,Cash,No,95796.33
+5047,Home,Local,39408.71,3.4,988.0,49.0,42.1,4.0,Cash,No,29750.74
+5048,Electronics,Local,46386.01,4.4,1124.0,53.0,5.9,6.0,Mobile Banking,Yes,104096.06
+5049,Sports,Local,8124.8,3.6,52.0,18.0,46.0,8.0,Card,Yes,19149.26
+5050,Beauty,Local,28061.64,3.8,701.0,120.0,43.9,4.0,Cash,Yes,43744.1
+5051,Sports,International,22723.24,4.3,201.0,139.0,48.1,3.0,Cash,No,24316.54
+5052,Books,International,37524.57,2.0,1180.0,64.0,16.5,3.0,Mobile Banking,Yes,205889.85
+5053,Electronics,Local,42010.91,4.8,345.0,4.0,34.3,1.0,Card,No,97072.04
+5054,Electronics,Local,2565.06,3.9,890.0,106.0,17.3,2.0,Mobile Banking,Yes,2962.0
+5055,Beauty,International,25430.46,4.4,925.0,47.0,22.7,3.0,Cash,Yes,127932.37
+5056,Sports,Local,29564.1,2.0,1167.0,185.0,26.5,3.0,Mobile Banking,No,135560.7
+5057,Books,Local,3369.89,3.7,94.0,114.0,9.8,9.0,Mobile Banking,No,20724.28
+5058,Sports,International,1538.64,,505.0,27.0,3.5,3.0,Cash,No,3589.61
+5059,Sports,Local,29751.7,2.8,154.0,28.0,8.0,2.0,Cash,Yes,31636.88
+5060,Electronics,International,37047.08,3.1,845.0,156.0,23.3,1.0,Mobile Banking,Yes,171641.11
+5061,Sports,Local,781.29,5.0,811.0,86.0,31.0,4.0,Cash,No,2206.57
+5062,Home,International,49119.96,5.0,1014.0,105.0,14.6,1.0,Mobile Banking,Yes,339833.71
+5063,Beauty,International,2580.91,4.3,667.0,44.0,5.4,4.0,Cash,Yes,15482.62
+5064,Beauty,Local,28470.21,2.2,9.0,83.0,12.2,6.0,Card,Yes,141408.64
+5065,Home,International,5242.78,4.9,948.0,1.0,49.8,3.0,Cash,No,43940.01
+5066,Sports,International,17711.75,5.0,1186.0,190.0,11.4,1.0,Mobile Banking,Yes,131896.86
+5067,Electronics,International,19904.83,2.7,874.0,,11.4,8.0,Mobile Banking,Yes,80645.58
+5068,Sports,International,19547.96,3.5,771.0,112.0,43.5,6.0,Cash,Yes,93807.82
+5069,Beauty,International,20314.15,4.1,278.0,152.0,21.0,1.0,Card,Yes,137531.67
+5070,Home,Local,46516.83,2.8,245.0,35.0,12.5,5.0,Card,Yes,122629.12
+5071,,Local,47124.24,4.9,726.0,82.0,24.5,5.0,Cash,Yes,182968.04
+5072,Beauty,Local,9257.95,4.7,573.0,76.0,42.1,5.0,Cash,Yes,38298.61
+5073,Electronics,Local,36606.5,3.6,83.0,10.0,18.5,5.0,Card,Yes,44462.03
+5074,Beauty,Local,34105.01,3.5,597.0,60.0,46.2,9.0,Card,No,41334.55
+5075,Electronics,Local,44229.75,3.3,318.0,0.0,49.7,1.0,Cash,No,74538.66
+5076,Beauty,International,29169.49,2.0,1192.0,23.0,34.0,8.0,Card,No,139389.98
+5077,Electronics,International,35029.09,4.6,1186.0,26.0,20.1,3.0,Mobile Banking,Yes,105392.21
+5078,Books,Local,12788.85,4.0,827.0,63.0,19.2,8.0,Cash,Yes,38303.19
+5079,Sports,Local,40702.05,4.9,43.0,3.0,38.8,1.0,Card,No,217984.27
+5080,Books,Local,28276.54,2.7,1027.0,46.0,41.8,8.0,Mobile Banking,Yes,76481.46
